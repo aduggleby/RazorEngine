@@ -12,6 +12,8 @@
     /// </summary>
     public abstract class TemplateBase : MarshalByRefObject, ITemplate
     {
+        string _Layout;
+
         #region Fields
         private ExecuteContext _context;
         #endregion
